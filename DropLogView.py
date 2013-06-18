@@ -394,7 +394,7 @@ class DropLogView(QtGui.QWidget):
 		elif backpack_viewer == 'Steam':
 			return '<a style="color: #%s;text-decoration:none" href="http://steamcommunity.com/profiles/%s/inventory/#440_2_%s" target="_blank">Link</a>' % (colour, steam_id, item_id)
 		elif backpack_viewer == 'TF2B':
-			return '<a style="color: #%s;text-decoration:none" href="http://tf2b.com/item/%s/%s" target="_blank">Link</a>' % (colour, steam_id, item_id)
+			return '<a style="color: #%s;text-decoration:none" href="http://tf2b.com/tf2/item/%s/%s" target="_blank">Link</a>' % (colour, steam_id, item_id)
 		elif backpack_viewer == 'TF2Items':
 			return '<a style="color: #%s;text-decoration:none" href="http://www.tf2items.com/item/%s" target="_blank">Link</a>' % (colour, item_id)
 
